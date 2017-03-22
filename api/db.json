@@ -1,0 +1,105 @@
+{
+    "categories": [
+        {
+            "id": 1,
+            "name": "Javascript",
+            "parent_category": null,
+            "tasks": [
+                {
+                    "id": 1,
+                    "title": "Concept of Closures in Javascript"
+                },
+                {
+                    "id": 2,
+                    "title": "Scope chaining and proptotypal chaining"
+                },
+                {
+                    "id": 3,
+                    "title": "OOP in Javascript"
+                },
+                {
+                    "id": 4,
+                    "title": "Understanding the ES 6 basics"
+                },
+                {
+                    "id": 5,
+                    "title": "callback hell in JS"
+                }
+            ] 
+        },
+        {
+            "id": 2,
+            "name": "Javascript ES 6",
+            "parent_category": 1,
+            "tasks": [
+                {
+                    "id": 1,
+                    "title": "Understanding the variable types in SE 6"
+                },
+                {
+                    "id": 2,
+                    "title": "Understanding Arrow Functions"
+                },
+                {
+                    "id": 3,
+                    "title": "Understanding Extended Parameter Handling"
+                },
+                {
+                    "id": 4,
+                    "title": "Understanding Template Literals"
+                },
+                {
+                    "id": 5,
+                    "title": "Understanding Extended Literals"
+                }
+            ] 
+        },
+        {
+            "id": 3,
+            "name": "CSS 3",
+            "parent_category": null,
+            "tasks": [
+                {
+                    "id": 1,
+                    "title": "Learn Flex"
+                },
+                {
+                    "id": 2,
+                    "title": "Learn Box Model"
+                },
+                {
+                    "id": 3,
+                    "title": "CSS Tips & Tricks"
+                },
+                {
+                    "id": 4,
+                    "title": "Learn CSS animations"
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "name": "Bootstrap 3",
+            "parent_category": 3,
+            "tasks": [] 
+        },
+        {
+            "id": 4,
+            "name": "HTML",
+            "parent_category": null,
+            "tasks": [] 
+        },
+        {
+            "id": 5,
+            "name": "Continous Integration",
+            "parent_category": null,
+            "tasks": [
+                {
+                    "id": 1,
+                    "title": "understand the Jenkins"
+                }
+            ] 
+        }
+
+    ]
+}
