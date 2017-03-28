@@ -1,5 +1,37 @@
-body {
-  margin: 0;
-  padding: 0;
-  font-family: sans-serif;
+.clearfix::after{
+  content: "";
+  clear: both;
+  display: block;
+}
+
+.top-buffer-20 { margin-top:20px; }
+.top-buffer-10 { margin-top:10px; }
+
+.right-buffer-20 { margin-right: 20px;}
+.right-buffer-10 { margin-right: 10px;}
+
+.bottom-buffer-20 { margin-bottom:20px; }
+.bottom-buffer-10 { margin-bottom:10px; }
+
+.left-buffer-20 { margin-left: 20px;}
+.left-buffer-10 { margin-left: 10px;}
+
+.logo {
+  margin-top: 0;
+}
+.actions .btn.btn-link {
+  padding: 5px;
+}
+.btn-link {
+  color: initial;
+}
+.btn-link.red:hover {
+  color: red;
+}
+
+.btn-link.teal:hover {
+  color: teal;
+}
+.hover-cursor {
+  cursor: pointer
 }
