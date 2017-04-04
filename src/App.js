@@ -11,8 +11,13 @@ class App extends Component {
   
   constructor(props) {
     super(props);
-    this.state = {term: null}
+    this.state = {term: null, currentCategory: null }
 }
+
+
+  selectCategory(category) {
+    this.setState({currentCategory: category});
+  }
   
   render() {
     return (
@@ -34,7 +39,7 @@ class App extends Component {
           
           <div className="col-md-4">
             
-            <CategoryList />  
+            <CategoryList selectCategory={(category) => {this.selectCategory(category)} }  />  
           
           </div>
           <div className="col-md-8">
@@ -45,7 +50,7 @@ class App extends Component {
               </div>
             </div>
 
-            <TaskList searchTerm={this.state.term}/>
+            <TaskList searchTerm={this.state.term} currentCategory={this.state.currentCategory} />
           
           </div>
         </div>

@@ -1,13 +1,16 @@
 import React, { Component } from 'react';
 
 class TaskListItem extends Component {
+    constructor(props) {
+        super(props);
+    }
 
     render() {
         return (
             <div className="list-group-item clearfix">
                 <div className="checkbox pull-left">
                     <label>
-                        <input type="checkbox" /> First List Group Item Heading
+                        <input type="checkbox" /> { this.props.task.title}
                     </label>
                 </div>
                 <div className="pull-right">
